@@ -105,7 +105,10 @@ def main():
     zfill_data = get_zfill(csv_dirs)
     load_csv(zfill_data,label_save_dir,csv_dirs)
     save_image(zfill_data,image_save_dir,img_dirs)
-cls_result = ['B2', 'J20', 'B52', 'Mirage2000', 'F4', 'F14', 'Tornado', 'E2', 'JAS39']
+
+
+
+cls_result = ['E2', 'J20', 'B2', 'F14', 'Tornado', 'F4', 'B52', 'JAS39', 'Mirage2000']
 
 cls = set()
 if __name__ == '__main__':
